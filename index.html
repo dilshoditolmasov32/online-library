@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="back-to-top" id="backToTop">
+      <i><img src="./images/top.png" alt="" /></i>
+    </div>
+    <header>
+      <nav class="nav__header">
+        <div class="container">
+          <div class="header__nav">
+            <div class="contact__list">
+              <a href="tel:+998935714442">+998-93-571-14-42</a>
+              <span>|</span>
+              <a
+                href="mailto:dilshoditolmasov32@gmail.com"
+                class="mail_contact"
+              >
+                <span>
+                  <img src="./images/email.png" alt="email" />
+                </span>
+                info@example.com</a
+              >
+              <span>|</span>
+              <a href="#work-time" class="work_time">
+                <span><img src="./images/clock.png" alt="clock" /></span>
+                Sunday - Fri: 9 aM - 6 pM
+              </a>
+            </div>
+            <ul class="lists">
+              <li class="wishlist_list">
+                <button class="chatbot-toggler">
+                  <a href="./chat.html">
+                    <img src="./images/chat.png" alt="chat-icon" />
+                    Live Chat
+                  </a>
+                </button>
+              </li>
+              <li class="login_list">
+                <a href="./login.html" class="login-btn">
+                  <img src="./images/user.png" alt="user-icon" />
+                  Login
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="navbar__header">
+          <span>
+            <a href="#">
+              <img src="./images/logo.svg" alt="logo" />
+            </a>
+          </span>
+          <ul>
+            <li><a href="./shop-cart.html">Shop</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+          <div class="search__menu">
+            <div class="select__category">
+              <img src="./images/app.png" alt="app_logo" />
+              <select name="cate">
+                <option value="1">Category</option>
+                <option value="1">Web Design</option>
+                <option value="1">Web Development</option>
+                <option value="1">Graphic Design</option>
+                <option value="1">Softwer Eng</option>
+              </select>
+            </div>
+            <div class="search__toggle_box">
+              <input type="text" placeholder="Author" />
+              <button>
+                <img src="./images/search-icon.png" alt="search-icon" />
+              </button>
+            </div>
+          </div>
+          <div class="menu-cart">
+            <a href="./wishlist.html"
+              ><img src="./images/heart.png" alt="heart"
+            /></a>
+            <a href="./shop-cart.html"
+              ><img src="./images/shopping-cart.png" alt="heart"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="top_main_header">
+        <div class="container">
+          <div class="hero__section">
+            <div class="new__books">
+              <i>Up to 30% Off</i>
+              <h1>Get Your New Book With The Best Price</h1>
+              <button class="shop__now">
+                <div class="hero-btn-hover"></div>
+                <span> SHop Now </span>
+                <img src="./images/next-icon.png" alt="next-icon" />
+              </button>
+              <div class="hero__books">
+                <img src="./images/books.png" alt="books" />
+              </div>
+            </div>
+            <div>
+              <img src="./images/hero-girl.png" alt="women" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box__cards">
+        <div class="container">
+          <div class="feature__wrapper">
+            <div class="feature__wrapper items">
+              <div class="icon">
+                <img src="./images/delivery-car.png" alt="delivery-car" />
+              </div>
+              <div class="content">
+                <h3>Return & refund</h3>
+                <p>Money back guarantee</p>
+              </div>
+            </div>
+            <div class="feature__wrapper items">
+              <div class="icon">
+                <img src="./images/payment.png" alt="payment" />
+              </div>
+              <div class="content">
+                <h3>Secure Payment</h3>
+                <p>30% off by subscribing</p>
+              </div>
+            </div>
+            <div class="feature__wrapper items">
+              <div class="icon">
+                <img src="./images/support.png" alt="support" />
+              </div>
+              <div class="content">
+                <h3>Quality Support</h3>
+                <p>Always online 24/7</p>
+              </div>
+            </div>
+            <div class="feature__wrapper items">
+              <div class="icon">
+                <img src="./images/offer.png" alt="offer" />
+              </div>
+              <div class="content">
+                <h3>Daily Offers</h3>
+                <p>20% off by subscribing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card__slider">
+        <div class="container">
+          <div class="section__title_area">
+            <h2>Our Latest News</h2>
+            <button class="theme_btn">
+              <div class="btn-hover-effect"></div>
+              <span>Explore More</span>
+            </button>
+          </div>
+
+          <div class="book__cards">
+
+        
+          <div class="book__card">
+            <h4 class="book_image">
+              <img src="./images/kitob1.png" alt="book" />
+            </h4>
+            <p class="book_desc">Design Low Book</p>
+            <div class="book__title">How Deal With vERY bad Book</div>
+            <div class="prices">
+              <span>$30.00</span>
+              <del>$39.99</del>
+            </div>
+            <div class="author__post">
+              <div class="author__about">
+                <div class="author__image">
+                  <img src="./images/user1.png" alt="client" />
+                </div>
+                <div class="author__name">Hawckins</div>
+              </div>
+              <div>
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/star_yarim.png" alt="star" />
+              </div>
+            </div>
+            <button class="theme_btn">
+              <div class="btn-hover-effect"></div>
+              <img src="./images/basket-shop.png" alt="basket" />
+              <span> Add to Cart</span>
+            </button>
+          </div>
+          <div class="book__card">
+            <h4 class="book_image">
+              <img src="./images/kitob1.png" alt="book" />
+            </h4>
+            <p class="book_desc">Design Low Book</p>
+            <div class="book__title">How Deal With vERY bad Book</div>
+            <div class="prices">
+              <span>$30.00</span>
+              <del>$39.99</del>
+            </div>
+            <div class="author__post">
+              <div class="author__about">
+                <div class="author__image">
+                  <img src="./images/user1.png" alt="client" />
+                </div>
+                <div class="author__name">Hawckins</div>
+              </div>
+              <div>
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/star_yarim.png" alt="star" />
+              </div>
+            </div>
+            <button class="theme_btn">
+              <div class="btn-hover-effect"></div>
+              <img src="./images/basket-shop.png" alt="basket" />
+              <span> Add to Cart</span>
+            </button>
+          </div>
+          <div class="book__card">
+            <h4 class="book_image">
+              <img src="./images/kitob1.png" alt="book" />
+            </h4>
+            <p class="book_desc">Design Low Book</p>
+            <div class="book__title">How Deal With vERY bad Book</div>
+            <div class="prices">
+              <span>$30.00</span>
+              <del>$39.99</del>
+            </div>
+            <div class="author__post">
+              <div class="author__about">
+                <div class="author__image">
+                  <img src="./images/user1.png" alt="client" />
+                </div>
+                <div class="author__name">Hawckins</div>
+              </div>
+              <div>
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/star_yarim.png" alt="star" />
+              </div>
+            </div>
+            <button class="theme_btn">
+              <div class="btn-hover-effect"></div>
+              <img src="./images/basket-shop.png" alt="basket" />
+              <span> Add to Cart</span>
+            </button>
+          </div>
+          <div class="book__card">
+            <h4 class="book_image">
+              <img src="./images/kitob1.png" alt="book" />
+            </h4>
+            <p class="book_desc">Design Low Book</p>
+            <div class="book__title">How Deal With vERY bad Book</div>
+            <div class="prices">
+              <span>$30.00</span>
+              <del>$39.99</del>
+            </div>
+            <div class="author__post">
+              <div class="author__about">
+                <div class="author__image">
+                  <img src="./images/user1.png" alt="client" />
+                </div>
+                <div class="author__name">Hawckins</div>
+              </div>
+              <div>
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/icons8-star-12.png" alt="star" />
+                <img src="./images/star_yarim.png" alt="star" />
+              </div>
+            </div>
+            <button class="theme_btn">
+              <div class="btn-hover-effect"></div>
+              <img src="./images/basket-shop.png" alt="basket" />
+              <span> Add to Cart</span>
+            </button>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+      <div class="categories">
+        <div class="container">
+          <h1 class="title">Top Categories Book</h1>
+          <div class="carousel">
+            <button class="arrows prev" onclick="moveCarousel(-1)">
+              &larr;
+            </button>
+            <div class="carousel-inner">
+              <div class="card">
+                <img src="./images/categoria-5.png" alt="Adventure Book" />
+                <div class="card-title">Adventure Book (10)</div>
+              </div>
+              <div class="card">
+                <img src="./images/categoria-1.png" alt="Romance Books" />
+                <div class="card-title">Romance Books (80)</div>
+              </div>
+
+              <div class="card">
+                <img src="./images/categoria-3.png" alt="Safe Home" />
+                <div class="card-title">Safe Home (5)</div>
+              </div>
+              <div class="card">
+                <img src="./images/categoria-4.png" alt="Grow Flower" />
+                <div class="card-title">Grow Flower (7)</div>
+              </div>
+              <div class="card">
+                <img src="./images/categoria-5.png" alt="Adventure Book" />
+                <div class="card-title">Adventure Book (8)</div>
+              </div>
+              <div class="card">
+                <img src="./images/categoria-2.png" alt="Design Low Book" />
+                <div class="card-title">Design Low Book (6)</div>
+              </div>
+              <div class="card">
+                <img src="./images/categoria-5.png" alt="Adventure Book" />
+                <div class="card-title">Adventure Book (9)</div>
+              </div>
+            </div>
+            <button class="arrows next" onclick="moveCarousel(1)">
+              &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="our__news">
+        <div class="container">
+          <h2>Our Latest News</h2>
+          <p class="desciription">
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. <br />
+            Donec at nulla nulla. Duis posuere ex lacus
+          </p>
+          <div class="user_cards">
+            <div class="card-container">
+              <div class="card">
+                <button class="active__btn">Activities</button>
+
+                <img src="./images/women.jpg" alt="Card Image 1" />
+                <h3>Feb 10, 2024</h3>
+                <p>Montes suspendisse massa curae malesuada</p>
+                <button class="card-button">
+                  <span> Read More </span>
+                </button>
+              </div>
+              <div class="card">
+                <img src="./images/book1.jpg " alt="Card Image 2" />
+                <h3>Mar 20, 2024</h3>
+                <p>Playful Picks Paradise: Kids’ Essentials with Dash.</p>
+                <button class="card-button">Learn More</button>
+              </div>
+              <div class="card">
+                <img src="./images/yigit.jpg" alt="Card Image 2" />
+                <h3>Jun 14, 2024</h3>
+                <p>Tiny Emporium: Playful Picks for Kids’ Delightful Days..</p>
+                <button class="card-button">Learn More</button>
+              </div>
+
+              <div class="card">
+                <img src="./images/oq-kitob.jpg" alt="Card Image 2" />
+                <h3>Jun 23, 2022</h3>
+                <p>Eu parturient dictumst fames quam tempor</p>
+                <button class="card-button">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer_about">
+          <div class="footer-logo">
+            <img src="./images/logo.svg" alt="logo" />
+            <p>
+              Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a
+              lacinia curabitur lacinia mollis.
+            </p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="./images/facebook.svg" alt="Facebook"
+              /></a>
+              <a href="https://x.com/" target="_blank"
+                ><img src="./images/twitter.svg" alt="Twitter"
+              /></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><img src="./images/youtube.svg" alt="YouTube"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/dilshodbek-itolmasov-447020274/"
+                target="_blank"
+                ><img src="./images/linkedin.svg" alt="LinkedIn"
+              /></a>
+            </div>
+          </div>
+
+          <!-- Customers Support -->
+          <div class="footer-section">
+            <h3>Customers Support</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="./images/double.png" alt="double" />
+                  Store List</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/double.png" alt="double" />
+                  Opening Hours</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/double.png" alt="double" />
+                  Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/double.png" alt="double" />
+                  Return Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Categories -->
+          <div class="footer-section">
+            <h3>Categories</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="./images/double.png" alt="double" />
+                  Novel Books</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/double.png" alt="double" />
+                  Poetry Books</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/double.png" alt="double" />
+                  Political Books</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./images/double.png" alt="double" />
+                  History Books</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-newsletter">
+            <h3>Newsletter</h3>
+            <p>
+              Sign up to receive weekly newsletters to get the latest updates.
+            </p>
+            <form>
+              <input type="email" placeholder="Enter Email Address" required />
+
+              <button type="submit">
+                <img src="./images/telegram.png" alt="Send" />
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
